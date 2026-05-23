@@ -1,0 +1,25 @@
+-- local cmp = require('cmp')
+-- cmp.setup({
+--   sources = cmp.config.sources({
+--     { name = 'nvim_lsp' }, -- LSP source
+--     { name = 'buffer' },   -- Buffer word source
+--     { name = 'path' },   -- Buffer word source
+--     { name = 'emmet_vim' },   -- Buffer word source
+--     { name = 'luasnip' },  -- Snippet source
+--   }),
+--   mapping = cmp.mapping.preset.insert({
+--     ['<C-p>'] = cmp.mapping.select_prev_item(), -- Previous item
+--     ['<C-n>'] = cmp.mapping.select_next_item(), -- Next item
+--     ['<C-b>'] = cmp.mapping.scroll_docs(-4),
+--     ['<C-f>'] = cmp.mapping.scroll_docs(4),
+--     ['<C-Space>'] = cmp.mapping.complete(),     -- Manually trigger completion
+--     ['<C-e>'] = cmp.mapping.abort(),            -- Dismiss completion menu
+--     ['<CR>'] = cmp.mapping.confirm({ select = true }), -- Accept selected item with Enter
+--   }),
+--   completion = {
+--     completeopt = 'menu,menuone,preview,noselect',
+--   },
+--   performance = {
+--     max_view_entries = 10, -- ← this is the key
+--   },
+-- })
