@@ -28,6 +28,7 @@ return require('packer').startup(function(use)
   use('mattn/emmet-vim')
   use {
     "saghen/blink.cmp",
+    branch = 'v1',
     run = "cargo build --release"
   }
 

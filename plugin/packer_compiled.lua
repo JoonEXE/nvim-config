@@ -49,8 +49,8 @@ local function save_profiles(threshold)
 end
 
 time([[Luarocks path setup]], true)
-local package_path_str = "/Users/jpins/.cache/nvim/packer_hererocks/2.1.1772148810/share/lua/5.1/?.lua;/Users/jpins/.cache/nvim/packer_hererocks/2.1.1772148810/share/lua/5.1/?/init.lua;/Users/jpins/.cache/nvim/packer_hererocks/2.1.1772148810/lib/luarocks/rocks-5.1/?.lua;/Users/jpins/.cache/nvim/packer_hererocks/2.1.1772148810/lib/luarocks/rocks-5.1/?/init.lua"
-local install_cpath_pattern = "/Users/jpins/.cache/nvim/packer_hererocks/2.1.1772148810/lib/lua/5.1/?.so"
+local package_path_str = "/home/joon/.cache/nvim/packer_hererocks/2.1.1761786044/share/lua/5.1/?.lua;/home/joon/.cache/nvim/packer_hererocks/2.1.1761786044/share/lua/5.1/?/init.lua;/home/joon/.cache/nvim/packer_hererocks/2.1.1761786044/lib/luarocks/rocks-5.1/?.lua;/home/joon/.cache/nvim/packer_hererocks/2.1.1761786044/lib/luarocks/rocks-5.1/?/init.lua"
+local install_cpath_pattern = "/home/joon/.cache/nvim/packer_hererocks/2.1.1761786044/lib/lua/5.1/?.so"
 if not string.find(package.path, package_path_str, 1, true) then
   package.path = package.path .. ';' .. package_path_str
 end
@@ -76,63 +76,63 @@ time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
   LuaSnip = {
     loaded = true,
-    path = "/Users/jpins/.local/share/nvim/site/pack/packer/start/LuaSnip",
+    path = "/home/joon/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
   ["blink.cmp"] = {
     loaded = true,
-    path = "/Users/jpins/.local/share/nvim/site/pack/packer/start/blink.cmp",
+    path = "/home/joon/.local/share/nvim/site/pack/packer/start/blink.cmp",
     url = "https://github.com/saghen/blink.cmp"
   },
   ["emmet-vim"] = {
     loaded = true,
-    path = "/Users/jpins/.local/share/nvim/site/pack/packer/start/emmet-vim",
+    path = "/home/joon/.local/share/nvim/site/pack/packer/start/emmet-vim",
     url = "https://github.com/mattn/emmet-vim"
   },
   gruvbox = {
     config = { "\27LJ\2\n;\0\0\3\0\4\0\0066\0\0\0009\0\1\0009\0\2\0'\2\3\0B\0\2\1K\0\1\0\fgruvbox\16colorscheme\bcmd\bvim\0" },
     loaded = true,
-    path = "/Users/jpins/.local/share/nvim/site/pack/packer/start/gruvbox",
+    path = "/home/joon/.local/share/nvim/site/pack/packer/start/gruvbox",
     url = "https://github.com/morhetz/gruvbox"
   },
   harpoon = {
     loaded = true,
-    path = "/Users/jpins/.local/share/nvim/site/pack/packer/start/harpoon",
+    path = "/home/joon/.local/share/nvim/site/pack/packer/start/harpoon",
     url = "https://github.com/theprimeagen/harpoon"
   },
   ["nvim-lspconfig"] = {
     loaded = true,
-    path = "/Users/jpins/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
+    path = "/home/joon/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
     url = "https://github.com/neovim/nvim-lspconfig"
   },
   ["nvim-treesitter"] = {
     loaded = true,
-    path = "/Users/jpins/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
+    path = "/home/joon/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
   },
   ["packer.nvim"] = {
     loaded = true,
-    path = "/Users/jpins/.local/share/nvim/site/pack/packer/start/packer.nvim",
+    path = "/home/joon/.local/share/nvim/site/pack/packer/start/packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
   },
   ["plenary.nvim"] = {
     loaded = true,
-    path = "/Users/jpins/.local/share/nvim/site/pack/packer/start/plenary.nvim",
+    path = "/home/joon/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
   ["telescope.nvim"] = {
     loaded = true,
-    path = "/Users/jpins/.local/share/nvim/site/pack/packer/start/telescope.nvim",
+    path = "/home/joon/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
   },
   undotree = {
     loaded = true,
-    path = "/Users/jpins/.local/share/nvim/site/pack/packer/start/undotree",
+    path = "/home/joon/.local/share/nvim/site/pack/packer/start/undotree",
     url = "https://github.com/mbbill/undotree"
   },
   ["vim-fugitive"] = {
     loaded = true,
-    path = "/Users/jpins/.local/share/nvim/site/pack/packer/start/vim-fugitive",
+    path = "/home/joon/.local/share/nvim/site/pack/packer/start/vim-fugitive",
     url = "https://github.com/tpope/vim-fugitive"
   }
 }
